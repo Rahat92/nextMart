@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+/* ================= VARIABLES CSS START ==================== */
+:root {
+  /* ======= COLOR ============ */
+  --next-main-color: #0075ff;
+  --next-text-color: #ffffff;
+  --next-text-color2: #000000;
+
+  --next-shadow-color: rgba(0, 0, 0, 0.25);
+  --next-main-shadow-color: rgba(0, 161, 222, 0.15);
+
+  /* ======= FONT AND TYPOGRAPHY======== */
+  --main-font: "Inter", sans-serif;
+
+  /* ======= FONT WEIGHT =========== */
+  --next-weight-light: 300;
+  --next-weight-normal: 400;
+  --next-weight-medium: 500;
+  --next-weight-semi-bold: 600;
+  --next-weight-bold: 700;
+
+  /* ======= FONT SIZE =========== */
+  --next-font-size: 16px;
+  --next-font-size2: 25px;
+  --next-font-size3: 20px;
+
+  /* ======= FONT LINE HEIGHT =========== */
+}
+
+/* ================= VARIABLES CSS END ==================== */
+
+/* ================= GLOBAL CSS START ==================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+img {
+  vertical-align: middle;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--next-text-color2);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--next-text-color2);
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+button:focus {
+  outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+ul,
+li,
+label {
+  margin: 0;
+}
+
+.ovh {
+  overflow: hidden;
+}
+
+table.table {
+  white-space: nowrap;
+}
+
+/* ================= GLOBAL CSS END ==================== */
