@@ -1,6 +1,3 @@
-body {
-  overflow-x: hidden;
-}
 /*=================== top header part start ==================*/
 .top_hearder_part {
   background: var(--next-main-color);
@@ -53,13 +50,14 @@ body {
 /*=================== banner_part start ======================*/
 .banner_part {
   width: 100%;
-  max-height: 390px;
+  min-height: 450px;
+  height: 450px;
   posation: relative;
 }
 
-.banner_part .hero_slider {
+.banner_part .hero_slider img {
   width: 100%;
-  height: 100%;
+  height: 450px !important;
 }
 
 .banner_part .owl-nav .owl-prev,
@@ -85,24 +83,62 @@ body {
   right: 50px;
 }
 
-///////////////////////////////
+/*=================== banner_part end ======================*/
 
-.section_3_box1 {
-  background: url("../Assets/Images/section3_image1.png");
-  background-repeat: no-repeat;
-}
-.section_3_box2 {
-  background: url("../Assets/Images/section3_image2.png");
-}
-.section_3_box3 {
-  background: url("../Assets/Images/section3_image3.png");
-}
-.section_3_box4 {
-  background: url("../Assets/Images/section3_image4.png");
+/*============== banner_bottom_part start =================*/
+.banner_bottom_part {
+  height: 250px;
+  min-height: 250px;
+  overflow: hidden;
 }
 
-.section_2 {
+.banner_bottom_part img {
+  width: 300px;
+  height: 180px;
+  border-radius: 5px;
 }
+
+/*============== banner_bottom_part end ===================*/
+
+/*============== brand_part start =======================*/
+.barnd_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.barnd_part h2 {
+  font-size: var(--next-main-color);
+  font-weight: var(--next-weight-bold);
+  font-size: 30px;
+}
+
+.barnd_part .our_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 312px;
+  height: 130px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 15px;
+}
+
+.barnd_part .our_image img {
+  width: 200px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.barnd_part h3 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/*============== brand_part end =======================*/
 
 input {
 }
