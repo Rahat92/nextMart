@@ -100,7 +100,8 @@
 
 /*============== banner_bottom_part end ===================*/
 
-/*============== brand_part start =======================*/
+/*============== brand_part & client_part start =======================*/
+.client_part,
 .barnd_part {
   display: flex;
   justify-content: center;
@@ -108,12 +109,14 @@
   text-align: center;
 }
 
+.client_part h2,
 .barnd_part h2 {
   font-size: var(--next-main-color);
   font-weight: var(--next-weight-bold);
   font-size: 30px;
 }
 
+.client_part .our_image,
 .barnd_part .our_image {
   display: flex;
   justify-content: center;
@@ -126,19 +129,166 @@
   margin-bottom: 15px;
 }
 
+.client_part .our_image img,
 .barnd_part .our_image img {
   width: 200px;
   height: 80px;
   border-radius: 10px;
 }
 
+.client_part h3,
 .barnd_part h3 {
   color: #000;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
 }
 
-/*============== brand_part end =======================*/
+/*============== brand_part & client_part end =======================*/
+
+/*============== newsletter part start =======================*/
+.newsletter_part {
+  background: var(--next-main-color);
+  height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter_part .middle_content p,
+.newsletter_part .left_content p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.newsletter_part .middle_content p {
+  font-size: 14px;
+}
+
+.newsletter_part .right_content {
+  margin-top: 17px;
+}
+
+.newsletter_part .right_content input {
+  border: 0px;
+  border-radius: 19px 0px 0px 19px;
+  background: #fff;
+  padding: 7px 1rem;
+}
+
+/* input focus */
+.newsletter_part .right_content input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.newsletter_part .right_content button {
+  border: 0px;
+  border-radius: 0px 19px 19px 0px;
+  padding: 7px 1rem;
+  background: #000;
+  color: #fff;
+}
+/*============== newsletter part end =======================*/
+
+/*================ footer part start =======================*/
+.footer_part {
+}
+
+.footer_part .footer_left {
+}
+.footer_part .footer_left .footer_contact {
+}
+.footer_part .footer_left .footer_contact p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer_part .footer_left {
+}
+
+.footer_part .footer_left .contact_info h5 {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.footer_part .footer_left .contact_info p {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.social_link ul {
+  display: flex;
+  align-items: center;
+}
+
+.social_link ul li {
+  padding: 0 5px;
+}
+
+.social_link ul li:first-child {
+  padding-left: 0px;
+}
+
+.social_link ul li a {
+  color: #000;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.social_link ul li:last-child a {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.footer_middle {
+}
+
+.footer_middle h5 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footer_middle ul {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
+.footer_middle ul li a {
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.footer_middle {
+}
+
+/*================ footer part end =========================*/
+
+/*================ copyright part start =========================*/
+.copyright_part {
+  background: #d9d9d9;
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+.copyright_part p span {
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.copyright_part p {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+}
+/*================ copyright part end =========================*/
 
 input {
 }
