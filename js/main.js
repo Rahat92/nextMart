@@ -29,4 +29,36 @@ $(document).ready(function () {
       },
     },
   });
+
+  // latest product owl carousel
+  $(".product_slide").owlCarousel({
+    loop: true,
+    margin: 0,
+    autoplay: true,
+    responsiveClass: true,
+    dots: false,
+    navText: [
+      "<i class='fas fa-angle-left' aria-hidden='true'></i>",
+      "<i class='fas fa-angle-right' aria-hidden='true'></i>",
+    ],
+    mouseDrag: false,
+    touchDrag: false,
+    autoplayTimeout: 3000,
+    nav: true,
+    responsive: {
+      0: {
+        items: 1,
+        nav: true,
+      },
+      600: {
+        items: 2,
+        nav: true,
+      },
+      1000: {
+        items: 5,
+        nav: true,
+        loop: true,
+      },
+    },
+  });
 });
