@@ -134,6 +134,61 @@
 
 /*================== about part end ======================*/
 
+/*================== latest product part start ======================*/
+.latest_product {
+}
+.latest_product {
+}
+.latest_product {
+}
+
+.latest_product .product_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  border-bottom: 2px solid #dcdcdc;
+}
+
+.latest_product .product_title {
+  border-bottom: 5px solid var(--next-main-color);
+}
+
+.latest_product .product_title h2 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.latest_product .product_head p {
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.product_slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin-top: 30px;
+  text-align: center;
+}
+.product_slide .slide_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 241px;
+  height: 325px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.25);
+}
+
+/*================== latest product part end ======================*/
+
 /*============== brand_part & client_part start =======================*/
 .client_part,
 .barnd_part {
