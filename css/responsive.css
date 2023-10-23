@@ -1,24 +1,101 @@
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  ...;
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .top_hearder_part h1 {
+    font-size: 14px !important;
+  }
+
+  .banner_part {
+    min-height: 183px;
+    height: 183px;
+  }
+
+  .banner_part .owl-nav .owl-prev,
+  .banner_part .owl-nav .owl-next {
+    height: 35px;
+    width: 35px;
+    font-size: 15px !important;
+  }
+
+  .banner_part .owl-nav .owl-next {
+    right: 16px;
+  }
+
+  .banner_part .owl-nav .owl-prev {
+    left: 16px;
+  }
+
+  .banner_part .hero_slider .item {
+    height: 180px;
+  }
+
+  .banner_bottom_part {
+    text-align: center;
+  }
+
+  .banner_bottom_part img {
+    height: 150px;
+    padding-bottom: 10px;
+  }
+
+  .product_part .upcoming_product {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .product_part .product_head {
+    margin-top: 20px;
+  }
+
+  .product_part .product_head p {
+    font-size: 14px;
+  }
+
+  .product_part .product_head h2 {
+    font-size: 14px;
+    border-bottom: 2px solid var(--next-main-color);
+  }
+
+  .product_part .product_item {
+    margin: 5px auto;
+  }
+
+  .about_part h5 {
+    font-size: 30px;
+  }
+
+  .about_part .about_content p {
+    font-size: 17px;
+  }
+  .about_part img {
+    width: 266px;
+    height: 228px;
+    margin-top: 15px;
+  }
+
+  .latest_product .product_head {
+    width: 88%;
+    margin: 0 auto;
+  }
+
+  .latest_product .product_title {
+    border-bottom: 2px solid var(--next-main-color);
+  }
+
+  .latest_product .product_title h2 {
+    font-size: 14px;
+  }
+  .latest_product .product_head p {
+    font-size: 14px;
+  }
 }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  ...;
+@media (min-width: 576px) and (max-width: 767.98px) {
 }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  ...;
+@media (min-width: 768px) and (max-width: 991.98px) {
 }
 
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  ...;
+@media (min-width: 992px) and (max-width: 1199.98px) {
 }
 
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {
-  ...;
+@media (min-width: 1200px) and (max-width: 1399.98px) {
 }
