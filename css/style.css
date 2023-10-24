@@ -30,6 +30,7 @@
 
 .menu_part ul li {
   position: relative;
+  background: var(--next-text-color);
 }
 
 .menu_part ul li a {
@@ -52,13 +53,16 @@
 
 .menu_part ul li > ul.dropdown_menu {
   position: absolute !important;
-  top: 100%;
-  left: 10000px;
+  top: 40px;
+  left: 10px;
+  width: 200px !important;
   max-height: 350px;
+  height: 350px;
+  overflow-y: auto;
   background: var(--next-text-color);
-  width: 100%;
   transition: all 0.3s ease-in-out;
-  z-index: 999;
+  z-index: 999999;
+  opacity: 0;
   padding: 0;
   border-radius: 0px 0px 10px 10px;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
@@ -68,7 +72,8 @@
   color: var(--next-main-color2);
 }
 .menu_part ul li:hover ul.dropdown_menu {
-  left: 0;
+  opacity: 1;
+  visibility: visible;
 }
 
 /*=================== menu_part end ======================*/
@@ -79,6 +84,7 @@
   min-height: 450px;
   height: 450px;
   position: relative;
+  z-index: -1;
 }
 
 .banner_part .hero_slider .item {
@@ -407,7 +413,7 @@
 
 /*============== brand_part & client_part start =======================*/
 .client_part,
-.barnd_part {
+.brand_part {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -415,14 +421,14 @@
 }
 
 .client_part h2,
-.barnd_part h2 {
+.brand_part h2 {
   font-size: var(--next-main-color);
   font-weight: var(--next-weight-bold);
   font-size: 30px;
 }
 
 .client_part .our_image,
-.barnd_part .our_image {
+.brand_part .our_image {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -435,7 +441,7 @@
 }
 
 .client_part .our_image img,
-.barnd_part .our_image img {
+.brand_part .our_image img {
   width: 200px;
   height: 80px;
   border-radius: 10px;
@@ -444,12 +450,12 @@
 }
 
 .client_part .our_image:hover img,
-.barnd_part .our_image:hover img {
+.brand_part .our_image:hover img {
   transform: scale(1);
 }
 
 .client_part h3,
-.barnd_part h3 {
+.brand_part h3 {
   color: #000;
   font-size: 25px;
   font-weight: 700;
@@ -461,6 +467,7 @@
 .newsletter_part {
   background: var(--next-main-color);
   height: 69px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -599,6 +606,10 @@
   color: #000;
   font-size: 12px;
   font-weight: 400;
+}
+
+.copyright_part img {
+  width: 100%;
 }
 /*================ copyright part end =========================*/
 
