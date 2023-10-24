@@ -54,7 +54,16 @@ $(document).ready(function () {
         items: 2,
         nav: true,
       },
+      768: {
+        items: 3,
+        nav: true,
+      },
       1000: {
+        items: 4,
+        nav: true,
+        loop: true,
+      },
+      1200: {
         items: 5,
         nav: true,
         loop: true,
