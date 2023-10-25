@@ -251,4 +251,23 @@
   .banner_bottom_part img {
     width: 100%;
   }
+
+  .menu_part ul li a {
+    font-size: 18px !important;
+    padding: 0 14px;
+  }
+
+  .product_part .product_item {
+    width: 204px;
+    margin-bottom: 10px;
+  }
+  .product_slide .slide_image {
+    width: 217px;
+    height: 320px;
+  }
+  .client_part .our_image,
+  .brand_part .our_image {
+    width: 270px;
+    height: 126px;
+  }
 }

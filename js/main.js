@@ -34,7 +34,7 @@ $(document).ready(function () {
   $(".product_slide").owlCarousel({
     loop: true,
     margin: 0,
-    autoplay: false,
+    autoplay: true,
     responsiveClass: true,
     dots: false,
     navText: [
